@@ -14,3 +14,7 @@ clear
 
 MONGODB
 Installation in Mac: https://docs.mongodb.com/manual/tutorial/install-mongodb-on-os-x/
+
+SQL
+- Net SQL While loop: https://www.tutorialgateway.org/nested-sql-while-loop/
+
