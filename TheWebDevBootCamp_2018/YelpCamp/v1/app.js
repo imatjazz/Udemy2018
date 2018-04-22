@@ -5,7 +5,11 @@ var bodyParser = require("body-parser");
 var campgrounds = [
     {name: "Salmon Creek", image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOIXbOZ0_UpNJOSoP0Gzoq6jwLP3IjihbnPstGcHDeJfBeerH0"},
     {name: "Granite Hill", image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWcYAE8PQYP1TJM4h3Zn9R65DSVmnoGFqDogH31tLeecouCxwb2w"},
+    {name: "Da Lat", image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwFwqq8Sp8afDcu8nlJmH1xxbvH8I6ZvdpIGADLiAUIfFzJgWr8w"},
+    {name: "Salmon Creek", image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOIXbOZ0_UpNJOSoP0Gzoq6jwLP3IjihbnPstGcHDeJfBeerH0"},
+    {name: "Granite Hill", image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWcYAE8PQYP1TJM4h3Zn9R65DSVmnoGFqDogH31tLeecouCxwb2w"},
     {name: "Da Lat", image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwFwqq8Sp8afDcu8nlJmH1xxbvH8I6ZvdpIGADLiAUIfFzJgWr8w"}
+
 ];
 
 app.use(bodyParser.urlencoded({extended: true}));
