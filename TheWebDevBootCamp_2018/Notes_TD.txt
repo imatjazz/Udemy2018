@@ -14,7 +14,14 @@ clear
 
 MONGODB
 Installation in Mac: https://docs.mongodb.com/manual/tutorial/install-mongodb-on-os-x/
+Window: https://docs.mongodb.com/tutorials/install-mongodb-on-windows/
+    Run Mongo from cmd:
+        "C:\Program Files\MongoDB\Server\3.6\bin\mongod.exe" --dbpath C:\\DEV\\Udemy2018\\mongodb\\data
+        "C:\Program Files\MongoDB\Server\3.6\bin\mongo.exe"
+
 
 SQL
 - Net SQL While loop: https://www.tutorialgateway.org/nested-sql-while-loop/
+                       
+
 
