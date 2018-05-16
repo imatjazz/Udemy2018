@@ -72,7 +72,6 @@ app.get("/campgrounds/new", function(req,res){
 
 //SHOW - shows more info about one campground
 app.get("/campgrounds/:id", function(req,res){
-    //res.send("This will be the SHOW PAGE one day!");
     //find the campground with provided Id
     Campground.findById(req.params.id, function(err,foundCampground){
         if(err){
